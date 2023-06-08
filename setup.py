@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     python_requires=">=3.10",
     install_requires=[
-        "selenium>=4.10.0",
+        "undetected-chromedriver"
     ],
     extras_require={
         "dev": ["isort>=5.12.0", "black>=23.3.0", "flake8>=6.0.0"],
